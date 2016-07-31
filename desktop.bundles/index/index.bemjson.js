@@ -14,9 +14,11 @@ module.exports = {
             content: [
                 {
                     block: 'section',
+                    mods: {picture: 'faroe'},
                     content: [
                         {
                             elem: 'header',
+
                             content: [
                                 {
                                     elem: 'title',
