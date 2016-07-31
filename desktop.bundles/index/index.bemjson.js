@@ -14,28 +14,46 @@ module.exports = {
             content: [
                 {
                     block: 'section',
-                    mods: {picture: 'faroe'},
+
                     content: [
                         {
                             elem: 'header',
-
+                            elemMods: {picture: 'faroe'},
                             content: [
                                 {
-                                    elem: 'title',
-                                    content: 'ФАРЕРЫ'
+                                    elem: 'layout',
+                                    content: [
+                                        {
+                                            elem: 'row',
+                                            content: [
+                                                {
+                                                    elem: 'title',
+                                                    content: 'ФАРЕРЫ'
+                                                },
+                                                {
+                                                    elem: 'subtitle',
+                                                    content: 'ПЕРВЫЙ РАЗ В ИСТОРИИ'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            elem: 'row',
+                                            content: [
+                                                {
+                                                    elem: 'subscription1',
+                                                    content: 'Первоисточник: http://silavetra.com/faroeislands'
+                                                },
+                                                {
+                                                    elem: 'subscription2',
+                                                    content: 'Авторы: Алиса Сорокина, Яна Сорокина, Ольга Цапко - команда "Силы Ветра"'
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 },
-                                {
-                                    elem: 'subtitle',
-                                    content: 'ПЕРВЫЙ РАЗ В ИСТОРИИ'
-                                },
-                                {
-                                    elem: 'subscription1',
-                                    content: 'Первоисточник: http://silavetra.com/faroeislands'
-                                },
-                                {
-                                    elem: 'subscription2',
-                                    content: 'Авторы: Алиса Сорокина, Яна Сорокина, Ольга Цапко - команда "Силы Ветра"'
-                                }
+
+
+
                             ]
                         },
                         {
