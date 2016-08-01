@@ -48,7 +48,16 @@ module.exports = {
                                                 content: [
                                                     {
                                                         elem: 'subscription1',
-                                                        content: 'Первоисточник: http://silavetra.com/faroeislands'
+                                                        content: [,
+                                                            'Первоисточник: ',
+                                                            {
+                                                                block: 'link',
+                                                                mods : { theme : 'faroe' },
+                                                                url: 'http://silavetra.com/faroeislands',
+                                                                content: 'http://silavetra.com/faroeislands',
+                                                                target: '_blank'
+                                                            }
+                                                        ]
                                                     },
                                                     {
                                                         elem: 'subscription2',
