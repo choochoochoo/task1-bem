@@ -1,4 +1,3 @@
 {
-  "directory": "libs",
-    "proxy": "http://proxy:8080"
+  "directory": "libs"
 }

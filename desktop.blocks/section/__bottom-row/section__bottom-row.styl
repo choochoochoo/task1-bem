@@ -1,6 +1,24 @@
 .section__bottom-row {
     display: table-row;
     vertical-align: middle;
-    font-size: 1rem;
-    line-height: 1.5rem;
+
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 800px) {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    @media screen and (min-width: 801px) and (max-width: 1024px) {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+
+    @media screen and (min-width: 1025px) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
 }
