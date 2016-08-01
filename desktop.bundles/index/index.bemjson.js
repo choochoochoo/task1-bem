@@ -24,20 +24,26 @@ module.exports = {
                                     elem: 'layout',
                                     content: [
                                         {
-                                            elem: 'row',
+                                            elem: 'top-row',
+                                            elemMods: {  },
                                             content: [
                                                 {
-                                                    elem: 'title',
-                                                    content: 'ФАРЕРЫ'
-                                                },
-                                                {
-                                                    elem: 'subtitle',
-                                                    content: 'ПЕРВЫЙ РАЗ В ИСТОРИИ'
+                                                    elem: 'vcenter',
+                                                    content: [
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'ФАРЕРЫ'
+                                                        },
+                                                        {
+                                                            elem: 'subtitle',
+                                                            content: 'ПЕРВЫЙ РАЗ В ИСТОРИИ'
+                                                        },
+                                                    ]
                                                 },
                                             ]
                                         },
                                         {
-                                            elem: 'row',
+                                            elem: 'bottom-row',
                                             content: [
                                                 {
                                                     elem: 'subscription1',
@@ -51,9 +57,6 @@ module.exports = {
                                         }
                                     ]
                                 },
-
-
-
                             ]
                         },
                         {
