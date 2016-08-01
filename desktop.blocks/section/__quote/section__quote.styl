@@ -1,13 +1,37 @@
 .section__quote {
-    text-align: justify;
-    font-size: 1rem;
-    line-height: 1.3rem;
-    border-left: 5px solid #f9f0f0;
-    max-width: 470px;
-    width: 35%;
-    margin: 0 auto;
-    float: right;
-    clear: both;
-    position: absolute;
-    right: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+        margin-top: 8vh;
+
+        width: 90%;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 800px) {
+
+    }
+
+    @media screen and (min-width: 801px) and (max-width: 1024px) {
+        max-width: 470px;
+        margin: auto;
+        float: none;
+        clear: none;
+        position: static;
+    }
+
+    @media screen and (min-width: 1025px) {
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 1.3rem;
+        border-left: 5px solid #f9f0f0;
+        max-width: 470px;
+        width: 35%;
+        margin: 0 auto;
+        float: right;
+        clear: both;
+        position: absolute;
+        right: 0px;
+    }
 }
+
