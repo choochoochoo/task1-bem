@@ -130,7 +130,7 @@ module.exports = {
                 },
                 {
                     block: 'section',
-                    mods: { offset: true},
+                    mods: {offset: true},
                     content: [
                         {
                             elem: 'header',
@@ -209,7 +209,35 @@ module.exports = {
                 },
                 {
                     block: 'section',
-                    content: 'section3'
+                    mods: {offset: true},
+                    content: [
+                        {
+                            elem: 'header',
+                            elemMods: {picture: 'weather'},
+                            content: [
+                                {
+                                    elem: 'layout',
+                                    content: [
+                                        {
+                                            elem: 'top-row',
+                                            elemMods: {},
+                                            content: [
+                                                {
+                                                    elem: 'vcenter',
+                                                    content: [
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'ПОГОДА'
+                                                        },
+                                                    ]
+                                                },
+                                            ]
+                                        }
+                                    ]
+                                },
+                            ]
+                        },
+                    ]
                 },
             ]
         }
