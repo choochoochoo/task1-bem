@@ -24,7 +24,6 @@ module.exports = {
                                     content: [
                                         {
                                             elem: 'top-row',
-                                            elemMods: {},
                                             content: [
                                                 {
                                                     elem: 'vcenter',
@@ -160,7 +159,6 @@ module.exports = {
                                     content: [
                                         {
                                             elem: 'top-row',
-                                            elemMods: {},
                                             content: [
                                                 {
                                                     elem: 'vcenter',
@@ -239,7 +237,6 @@ module.exports = {
                                     content: [
                                         {
                                             elem: 'top-row',
-                                            elemMods: {},
                                             content: [
                                                 {
                                                     elem: 'vcenter',
