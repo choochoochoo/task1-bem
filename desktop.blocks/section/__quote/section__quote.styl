@@ -1,6 +1,7 @@
 .section__quote {
     border-left: 5px solid #f9f0f0;
-    margin: auto;
+
+    margin-bottom: 5vh;
     max-width: 470px;
 
     @media screen and (min-width: 0px) and (max-width: 480px) {
@@ -8,15 +9,16 @@
     }
 
     @media screen and (min-width: 801px) and (max-width: 1024px) {
+        position: static;
         float: none;
         clear: none;
-        position: static;
     }
 
     @media screen and (min-width: 1025px) {
         position: absolute;
         right: 0px;
         width: 35%;
+        margin: auto;
 
         text-align: justify;
     }
