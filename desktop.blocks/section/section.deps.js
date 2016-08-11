@@ -13,7 +13,7 @@
                 'quote-content',
                 'subtitle',
                 'title',
-                'vcenter',
+                'layout-row',
                 'top-row',
                 'bottom-row'
             ],

@@ -74,7 +74,7 @@ block('section').content()(function () {
                             elem: 'top-row',
                             content: [
                                 {
-                                    elem: 'vcenter',
+                                    elem: 'layout-row',
                                     content: [
                                         {
                                             elem: 'title',
@@ -91,7 +91,7 @@ block('section').content()(function () {
                         {
                             elem: 'bottom-row',
                             content: {
-                                elem: 'vcenter',
+                                elem: 'layout-row',
                                 content: [
                                     {
                                         elem: 'subscription1',
