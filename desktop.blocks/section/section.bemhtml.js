@@ -68,7 +68,7 @@ block('section').content()(function () {
             elemMods: {picture: section.section},
             content: [
                 {
-                    elem: 'layout',
+                    elem: 'layout-header',
                     content: [
                         {
                             elem: 'top-row',

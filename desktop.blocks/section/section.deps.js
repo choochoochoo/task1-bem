@@ -5,7 +5,7 @@
             elems: [
                 'bottom-row',
                 'header',
-                'layout',
+                'layout-header',
                 'layout-text',
                 'main',
                 'paragraph',
