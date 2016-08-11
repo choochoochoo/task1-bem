@@ -1,10 +1,10 @@
 {
-  "author": "",
-  "name": "bem-project-stub",
-  "version": "1.7.0",
+  "author": "Soloviev Dmitry",
+  "name": "task1-bem",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bem/project-stub.git"
+    "url": "https://github.com/choochoochoo/task1-bem.git"
   },
   "engines": {
     "node": ">=0.12"
